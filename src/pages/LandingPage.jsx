@@ -1,6 +1,7 @@
 import AboutSec from "../components/AboutSec";
 import CarouselWithContent from "../components/Carousel";
 import Clients from "../components/Clients";
+import Testimonials from "../components/Testimonials";
 
 function LandingPage(){
     return(
@@ -8,6 +9,7 @@ function LandingPage(){
            <CarouselWithContent />
             <Clients />
             <AboutSec  />
+            <Testimonials />
         </>
     )
 }
