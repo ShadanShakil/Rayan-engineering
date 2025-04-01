@@ -92,7 +92,7 @@ Our company specializes in petrochemical and gas plant piping, providing design,
       </div>
       <div className="relative h-full w-full">
         <img
-        src="https://climapro.com/wp-content/uploads/WechatIMG108.png"
+        src="https://www.thermodial.ie/wp-content/uploads/2019/07/thermodial-air-handling-unit-and-flue-1.jpg.webp"
         alt="image 2"
           className="h-full w-full object-cover"
         />
@@ -121,7 +121,7 @@ Our company specializes in petrochemical and gas plant piping, providing design,
       </div>
       <div className="relative h-full w-full">
         <img
-        src="https://www.bdrstainless.com.au/wp-content/uploads/weldings-bdr-1024x512.jpg"
+        src="https://metalexponents.com/wp-content/uploads/2021/07/What-Are-the-Differences-Between-Metal-Fabrication-and-Welding.jpg"
         alt="image 2"
           className="h-full w-full object-cover"
         />

@@ -65,7 +65,7 @@ Our activities include - Engineering estimation.</p>
       <section className="border border-black flex md:flex-row flex-col md:m-10">
         <div className="md:w-[50%] w-full">
           <img
-            src="https://climapro.com/wp-content/uploads/WechatIMG108.png"
+            src="https://www.thermodial.ie/wp-content/uploads/2019/07/thermodial-air-handling-unit-and-flue-1.jpg.webp"
             className="brightness-75"
           />
         </div>
@@ -144,7 +144,7 @@ Our activities include - Engineering estimation.</p>
         <section className="border border-black flex md:flex-row flex-col md:m-10">
         <div className="md:w-[50%] w-full">
           <img
-            src="https://www.bdrstainless.com.au/wp-content/uploads/weldings-bdr-1024x512.jpg"
+            src="https://metalexponents.com/wp-content/uploads/2021/07/What-Are-the-Differences-Between-Metal-Fabrication-and-Welding.jpg"
             className="brightness-75"
           />
         </div>
