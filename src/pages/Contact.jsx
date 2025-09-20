@@ -21,14 +21,6 @@ export default function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
           {/* Right side (Black box) should appear first in mobile */}
           <Card className="order-1 lg:order-2 bg-black text-white border border-gray-800 h-full flex flex-col">
-            {/* Red note stays at top */}
-            <CardHeader>
-              <div className="w-full">
-                <div className="bg-red-600/70 text-white p-4 rounded-lg shadow text-center font-semibold">
-                  ⚠️ Please book an appointment for a meeting
-                </div>
-              </div>
-            </CardHeader>
 
             {/* Centered contact details */}
             <CardBody className="flex flex-col items-center justify-center text-center space-y-3 text-gray-300">
@@ -66,7 +58,7 @@ export default function Contact() {
           <div className="order-2 lg:order-1 w-full h-[400px] lg:h-[600px]">
             <iframe
               title="Rayan Engineering Location"
-              src="https://www.google.com/maps?q=Karachi&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.482183050656!2d67.10519911166564!3d24.94970427777873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb338a7b5f8f6d5%3A0x11adea7ac518b7ff!2sCountry%20Terrace!5e0!3m2!1sen!2s!4v1758395850243!5m2!1sen!2s"
               className="w-full h-full rounded-lg border border-gray-300 shadow"
               allowFullScreen
               loading="lazy"

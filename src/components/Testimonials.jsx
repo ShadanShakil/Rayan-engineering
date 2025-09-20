@@ -26,7 +26,7 @@ function Testimonials(){
           <a className="inline-flex items-center">
             <img
               alt="testimonial"
-              src="https://dummyimage.com/106x106"
+              src="https://cdn.vectorstock.com/i/500p/22/63/a-simple-black-silhouette-of-man-in-suit-vector-55942263.jpg"
               className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
             />
             <span className="flex-grow flex flex-col pl-4">
@@ -57,7 +57,7 @@ function Testimonials(){
           <a className="inline-flex items-center">
             <img
               alt="testimonial"
-              src="https://dummyimage.com/107x107"
+              src="https://cdn.vectorstock.com/i/500p/22/63/a-simple-black-silhouette-of-man-in-suit-vector-55942263.jpg"
               className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
             />
             <span className="flex-grow flex flex-col pl-4">
