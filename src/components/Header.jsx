@@ -24,9 +24,9 @@ function Header() {
       <div className="hidden md:flex gap-4 items-center">
         <Button1 text="Home" onClick={() => navigate("/")}/>
         <Button1 text="Services" onClick={() => navigate("/services")}/>
-        <Button1 text="Our Projects" />
-        <Button1 text="About Us" />
-        <Button1 text="Contact Us" />
+        <Button1 text="Our Projects" onClick={() => navigate("/projects")}/>
+        <Button1 text="About Us" onClick={() => navigate("/about")}/>
+        <Button1 text="Contact Us" onClick={() => navigate("/contact")}/>
 
       </div>
 
@@ -41,9 +41,9 @@ function Header() {
           <DropdownMenu aria-label="Static Actions">
               <DropdownItem key="home" textValue="Home"><NavLink to={"/"}>Home</NavLink></DropdownItem>
               <DropdownItem key="services" textValue="Services"><NavLink to={"/services"}>Services</NavLink></DropdownItem>
-              <DropdownItem key="projects" textValue="Projects"><NavLink>Our Projects</NavLink></DropdownItem>
-              <DropdownItem key="about" textValue="About Us"><NavLink>About Us</NavLink></DropdownItem>
-              <DropdownItem key="contact" textValue="Conatct Us"><NavLink>Contact Us</NavLink></DropdownItem>
+              <DropdownItem key="projects" textValue="Projects"><NavLink to={"/projects"}>Our Projects</NavLink></DropdownItem>
+              <DropdownItem key="about" textValue="About Us"><NavLink to={"/about"}>About Us</NavLink></DropdownItem>
+              <DropdownItem key="contact" textValue="Conatct Us"><NavLink to={"/contact"}>Contact Us</NavLink></DropdownItem>
           </DropdownMenu>
         </Dropdown>
       </div>
